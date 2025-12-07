@@ -1,0 +1,96 @@
+// @/database/grammar/comparativesAndSuperlatives.ts
+import { GrammarQuestion } from '../../types';
+
+export const comparativesAndSuperlatives: GrammarQuestion[] = [
+    // ==============================================================================
+    // --- EASY ---
+    // ==============================================================================
+    { question: 'My brother is taller ___ me.', options: ['then', 'than', 'as', 'from'], correctAnswer: 'than', explanation: '"Than" is a conjunction used for comparisons, while "then" is an adverb related to time.', difficulty: 'Easy' },
+    { question: 'She is the ___ student in the class.', options: ['smart', 'smarter', 'smartest', 'more smart'], correctAnswer: 'smartest', explanation: 'The superlative form "smartest" is used to compare one person to the entire group ("in the class").', difficulty: 'Easy' },
+    { question: 'She runs faster ___ her sister.', options: ['than', 'then', 'as', 'from'], correctAnswer: 'than', explanation: '"Than" is used for comparisons.', difficulty: 'Easy' },
+    { question: 'She is the ___ singer in the choir.', options: ['good', 'better', 'best', 'more good'], correctAnswer: 'best', explanation: 'Superlative "best" compares one person to the whole group.', difficulty: 'Easy' },
+    { question: 'He works harder ___ anyone else in the team.', options: ['than', 'then', 'as', 'from'], correctAnswer: 'than', explanation: 'Used for comparison between two subjects.', difficulty: 'Easy' },
+    { question: 'She sings better ___ her sister.', options: ['than', 'then', 'as', 'from'], correctAnswer: 'than', explanation: '"Than" is used for making comparisons.', difficulty: 'Easy' },
+    { question: 'This car is ___ than that one.', options: ['fast', 'faster', 'fastest', 'more fast'], correctAnswer: 'faster', explanation: '"Faster" is the comparative form of the adjective "fast," used to compare two things.', difficulty: 'Easy' },
+    { question: 'Mount Everest is the ___ mountain in the world.', options: ['high', 'higher', 'highest', 'more high'], correctAnswer: 'highest', explanation: '"Highest" is the superlative form, used to compare one thing to all others in a group.', difficulty: 'Easy' },
+    { question: 'My sister is ___ tall ___ me.', options: ['so, so', 'as, than', 'as, as', 'so, than'], correctAnswer: 'as, as', explanation: 'The structure "as...as" is used to show that two things are equal in some way.', difficulty: 'Easy' },
+    { question: 'This dress is ___ than that one.', options: ['beautiful', 'more beautiful', 'most beautiful', 'beautifuller'], correctAnswer: 'more beautiful', explanation: 'Comparative form "more beautiful" compares two things.', difficulty: 'Easy' },
+    { question: 'He is ___ intelligent ___ his brother.', options: ['as, as', 'so, as', 'as, than', 'more, than'], correctAnswer: 'as, as', explanation: '"As...as" shows equality between two subjects.', difficulty: 'Easy' },
+    { question: 'He is as tall ___ his father.', options: ['as', 'than', 'so', 'like'], correctAnswer: 'as', explanation: '"As...as" is used for equality.', difficulty: 'Easy' },
+    { question: 'He was the ___ student in the class.', options: ['intelligent', 'more intelligent', 'most intelligent', 'intelligenter'], correctAnswer: 'most intelligent', explanation: 'Superlative "most intelligent" compares one to all others.', difficulty: 'Easy' },
+    { question: 'The elephant is ___ than the mouse.', options: ['big', 'bigger', 'biggest', 'more big'], correctAnswer: 'bigger', explanation: 'For one-syllable adjectives ending in consonant-vowel-consonant, double the final consonant.', difficulty: 'Easy' },
+    { question: 'Winter is ___ than summer.', options: ['colder', 'coldest', 'more cold', 'cold'], correctAnswer: 'colder', explanation: 'Comparative of "cold" is "colder".', difficulty: 'Easy' },
+    { question: 'My bag is ___ than yours.', options: ['heavy', 'heavier', 'heaviest', 'more heavy'], correctAnswer: 'heavier', explanation: 'Adjectives ending in -y change y to i and add -er.', difficulty: 'Easy' },
+    { question: 'It was ___ day of my life.', options: ['the most happy', 'the happiest', 'happiest', 'most happy'], correctAnswer: 'the happiest', explanation: 'Adjectives ending in -y change to -iest in superlative.', difficulty: 'Easy' },
+    { question: 'Today is the ___ day of the year.', options: ['hot', 'hotter', 'hottest', 'most hot'], correctAnswer: 'hottest', explanation: 'Double the consonant for CVC words: hot -> hottest.', difficulty: 'Easy' },
+    { question: 'Who is the ___ person in your family?', options: ['old', 'older', 'oldest', 'most old'], correctAnswer: 'oldest', explanation: 'Superlative form is needed here.', difficulty: 'Easy' },
+    { question: 'This box is ___ than that one.', options: ['lighter', 'lightest', 'more light', 'light'], correctAnswer: 'lighter', explanation: 'Comparative form of "light".', difficulty: 'Easy' },
+    { question: 'Ferrari is ___ than a Toyota.', options: ['expensive', 'more expensive', 'most expensive', 'expensiver'], correctAnswer: 'more expensive', explanation: 'Long adjectives (3+ syllables) take "more".', difficulty: 'Easy' },
+    { question: 'I think math is ___ than history.', options: ['hard', 'harder', 'hardest', 'more hard'], correctAnswer: 'harder', explanation: 'Comparative of "hard".', difficulty: 'Easy' },
+    { question: 'Your house is ___ than mine.', options: ['large', 'larger', 'largest', 'more large'], correctAnswer: 'larger', explanation: 'Adjectives ending in -e just add -r.', difficulty: 'Easy' },
+    { question: 'This is the ___ cake I have ever eaten.', options: ['sweet', 'sweeter', 'sweetest', 'most sweet'], correctAnswer: 'sweetest', explanation: 'Superlative of "sweet".', difficulty: 'Easy' },
+
+    // ==============================================================================
+    // --- MEDIUM ---
+    // ==============================================================================
+    { question: 'This is the ___ book I have ever read.', options: ['interesting', 'more interesting', 'most interesting', 'interestinger'], correctAnswer: 'most interesting', explanation: 'For longer adjectives like "interesting", we use "most" to form the superlative.', difficulty: 'Medium' },
+    { question: 'The weather today is ___ than it was yesterday.', options: ['bad', 'badder', 'worse', 'worst'], correctAnswer: 'worse', explanation: '"Bad" is an irregular adjective; its comparative form is "worse".', difficulty: 'Medium' },
+    { question: 'She is not as tall ___ her brother.', options: ['so', 'as', 'than', 'then'], correctAnswer: 'as', explanation: 'The structure for negative comparison is "not as...as" or "not so...as".', difficulty: 'Medium' },
+    { question: 'She is ___ intelligent as her sister.', options: ['as', 'so', 'more', 'than'], correctAnswer: 'as', explanation: '"As...as" is used for equality.', difficulty: 'Medium' },
+    { question: 'He drives ___ carefully than his brother.', options: ['more', 'most', 'as', 'so'], correctAnswer: 'more', explanation: 'Comparative adverb "more carefully" is used for comparison.', difficulty: 'Medium' },
+    { question: 'She speaks English better than ___ .', options: ['anyone', 'everyone', 'someone', 'no one'], correctAnswer: 'anyone', explanation: '"Better than anyone" is correct for comparisons.', difficulty: 'Medium' },
+    { question: 'It was ___ than I expected.', options: ['much expensive', 'more expensive', 'much more expensive', 'a lot expensive'], correctAnswer: 'much more expensive', explanation: 'We use "much" or "far" to intensify a comparative adjective.', difficulty: 'Medium' },
+    { question: 'The situation is getting ___ and ___.', options: ['worse, worse', 'bad, bad', 'worst, worst', 'badder, badder'], correctAnswer: 'worse, worse', explanation: 'Repeated comparatives indicate a continuous change.', difficulty: 'Medium' },
+    { question: 'The noise got ___ as we approached the city.', options: ['louder and louder', 'loud and loud', 'loudest and loudest', 'more loud'], correctAnswer: 'louder and louder', explanation: 'Double comparatives describe a trend.', difficulty: 'Medium' },
+    { question: 'This task is ___ difficult than the last one.', options: ['less', 'little', 'least', 'few'], correctAnswer: 'less', explanation: '"Less" is the opposite of "more" for comparatives.', difficulty: 'Medium' },
+    { question: 'Of the three sisters, Sarah is the ___.', options: ['prettiest', 'prettier', 'most pretty', 'more pretty'], correctAnswer: 'prettiest', explanation: 'When comparing three or more, use the superlative.', difficulty: 'Medium' },
+    { question: 'The Earth is ___ from the sun than Venus.', options: ['far', 'farthest', 'further', 'farther'], correctAnswer: 'farther', explanation: '"Farther" refers to physical distance. "Further" can also be used, but "farther" is specific to distance.', difficulty: 'Medium' },
+    { question: 'I have ___ money than you.', options: ['less', 'fewer', 'least', 'few'], correctAnswer: 'less', explanation: 'Money is uncountable, so we use "less".', difficulty: 'Medium' },
+    { question: 'There are ___ people here than I expected.', options: ['less', 'fewer', 'least', 'few'], correctAnswer: 'fewer', explanation: 'People are countable, so we use "fewer" (though "less" is common in informal speech, "fewer" is grammatically correct).', difficulty: 'Medium' },
+    { question: 'This exam was ___ than the previous one.', options: ['easy', 'easier', 'easiest', 'more easy'], correctAnswer: 'easier', explanation: 'Adjectives ending in -y (easy) change to -ier.', difficulty: 'Medium' },
+    { question: 'Is it ___ to go by train or by bus?', options: ['quick', 'quicker', 'quickest', 'more quick'], correctAnswer: 'quicker', explanation: 'Comparing two modes of transport requires the comparative form.', difficulty: 'Medium' },
+    { question: 'He is one of the ___ men in the world.', options: ['rich', 'richer', 'richest', 'most rich'], correctAnswer: 'richest', explanation: 'The structure is "one of the" + superlative + plural noun.', difficulty: 'Medium' },
+    { question: 'The problem is ___ serious than we thought.', options: ['very', 'more', 'much', 'lot'], correctAnswer: 'more', explanation: 'Standard comparative structure.', difficulty: 'Medium' },
+    { question: 'Can you speak ___ please?', options: ['slow', 'slower', 'more slowly', 'slowliest'], correctAnswer: 'more slowly', explanation: 'Adverbs ending in -ly generally take "more". "Slower" is acceptable informally, but "more slowly" is precise.', difficulty: 'Medium' },
+    { question: 'I feel ___ today than I did yesterday.', options: ['good', 'better', 'best', 'well'], correctAnswer: 'better', explanation: 'Comparative of "good" (adjective) or "well" (adjective meaning healthy) is "better".', difficulty: 'Medium' },
+
+    // ==============================================================================
+    // --- HARD ---
+    // ==============================================================================
+    { question: 'This is by far the ___ movie I have ever seen.', options: ['worse', 'baddest', 'worst', 'most bad'], correctAnswer: 'worst', explanation: '"Worst" is the superlative form of "bad". "By far" is used to emphasize a superlative.', difficulty: 'Hard' },
+    { question: 'Of the two options, this one is the ___ expensive.', options: ['less', 'least', 'lesser', 'little'], correctAnswer: 'less', explanation: 'When comparing only two items, the comparative form "less" is used, not the superlative "least".', difficulty: 'Hard' },
+    { question: 'He is ___ the best player on the team.', options: ['by far', 'far', 'much', 'long'], correctAnswer: 'by far', explanation: '"By far" is used to emphasize superlative adjectives.', difficulty: 'Hard' },
+    { question: 'This house is three times ___ yours.', options: ['bigger than', 'as big as', 'biggest as', 'big as'], correctAnswer: 'as big as', explanation: 'When using multipliers (twice, three times), we use "as...as".', difficulty: 'Hard' },
+    { question: 'It is ___ slightly warmer today.', options: ['more', 'a bit', 'very', 'much'], correctAnswer: 'a bit', explanation: 'Actually, the sentence structure in the question implies we need a modifier. "It is slightly warmer" is correct. If replacing "slightly", we could use "a bit".', difficulty: 'Hard' },
+    { question: 'His condition is ___ better today.', options: ['very', 'so', 'much', 'more'], correctAnswer: 'much', explanation: 'We use "much", "far", "a lot", or "way" to modify comparatives. We cannot use "very".', difficulty: 'Hard' },
+    { question: 'This is the ___ point in the argument.', options: ['furthest', 'farthest', 'farther', 'far'], correctAnswer: 'furthest', explanation: '"Furthest" is used for abstract degree/depth, while "farthest" is for physical distance.', difficulty: 'Hard' },
+    { question: 'She is my ___ sister.', options: ['older', 'elder', 'oldest', 'more old'], correctAnswer: 'elder', explanation: '"Elder" is used for family members when not comparing with "than". "Older" is also possible, but "elder" is specific to seniority in family.', difficulty: 'Hard' },
+    { question: 'Which of these two cars is ___?', options: ['fastest', 'the fastest', 'faster', 'the faster'], correctAnswer: 'the faster', explanation: 'When "of the two" is implied or stated, we use "the" + comparative.', difficulty: 'Hard' },
+    { question: 'The result was ___ than we had anticipated.', options: ['far bad', 'far worse', 'far worst', 'more bad'], correctAnswer: 'far worse', explanation: '"Far" intensifies the comparative "worse".', difficulty: 'Hard' },
+    { question: 'This is the ___ justified of all his complaints.', options: ['less', 'least', 'lesser', 'little'], correctAnswer: 'least', explanation: 'Superlative of "less" is "least".', difficulty: 'Hard' },
+    { question: 'Please send me further details ___ possible.', options: ['as soon as', 'sooner as', 'soon as', 'as soon than'], correctAnswer: 'as soon as', explanation: 'Idiomatic expression for "at the earliest time".', difficulty: 'Hard' },
+    { question: 'He is ___ intelligent than he looks.', options: ['much', 'less', 'fewer', 'least'], correctAnswer: 'less', explanation: 'Comparative of inferiority.', difficulty: 'Hard' },
+    { question: 'It’s ___ cold to go outside.', options: ['too', 'enough', 'so', 'such'], correctAnswer: 'too', explanation: '"Too" + adjective + infinitive indicates a negative result.', difficulty: 'Hard' },
+    { question: 'He is not ___ a good player as he used to be.', options: ['so', 'such', 'as', 'like'], correctAnswer: 'such', explanation: '"Such a" + adjective + noun + "as".', difficulty: 'Hard' },
+    { question: 'The hill was getting ___ and ___.', options: ['steep, steep', 'steeper, steeper', 'steepest, steepest', 'more steep, more steep'], correctAnswer: 'steeper and steeper', explanation: 'Double comparative indicates increasing intensity.', difficulty: 'Hard' },
+    { question: 'That was the ___ useful advice I\'ve ever received.', options: ['least', 'less', 'lesser', 'little'], correctAnswer: 'least', explanation: 'Superlative of "little" meaning the minimum amount.', difficulty: 'Hard' },
+    
+    // ==============================================================================
+    // --- EXAM ---
+    // ==============================================================================
+    { question: 'The ___ you study, the ___ you will learn.', options: ['more, more', 'much, much', 'most, most', 'more, most'], correctAnswer: 'more, more', explanation: '"The...the..." with two comparatives is a structure used to show a cause-and-effect relationship.', difficulty: 'Exam' },
+    { question: 'Of all the applicants, she is the ___ qualified for the position.', options: ['less', 'least', 'little', 'lesser'], correctAnswer: 'least', explanation: '"Least" is the superlative form of "little" and is used to compare one person to the entire group.', difficulty: 'Exam' },
+    { question: 'He is the ___ of the two brothers.', options: ['smartest', 'smarter', 'most smart', 'smart'], correctAnswer: 'smarter', explanation: 'When "of the two" is specified, we use the comparative with "the".', difficulty: 'Exam' },
+    { question: 'This model is superior ___ the old one.', options: ['than', 'to', 'from', 'over'], correctAnswer: 'to', explanation: 'Latin comparatives like "superior", "inferior", "senior", "junior" take "to", not "than".', difficulty: 'Exam' },
+    { question: 'She is senior ___ me by two years.', options: ['than', 'to', 'from', 'over'], correctAnswer: 'to', explanation: '"Senior" takes "to".', difficulty: 'Exam' },
+    { question: 'The ___ we leave, the ___ we will arrive.', options: ['earlier, soon', 'earlier, sooner', 'early, sooner', 'earliest, soonest'], correctAnswer: 'earlier, sooner', explanation: 'Parallel increase structure requires comparatives in both clauses.', difficulty: 'Exam' },
+    { question: 'This is ___ the most difficult exam I have taken.', options: ['easily', 'easy', 'easier', 'easiest'], correctAnswer: 'easily', explanation: '"Easily" (or "by far") is used to emphasize a superlative.', difficulty: 'Exam' },
+    { question: 'No sooner had we arrived ___ it started to rain.', options: ['than', 'when', 'then', 'that'], correctAnswer: 'than', explanation: '"No sooner" is followed by "than". While not strictly an adjective comparison, it uses the comparative word "sooner".', difficulty: 'Exam' },
+    { question: 'He is ___ as intelligent as his sister.', options: ['every bit', 'very', 'much', 'so'], correctAnswer: 'every bit', explanation: '"Every bit" is an idiom used to emphasize equality in "as...as" structures.', difficulty: 'Exam' },
+    { question: 'The gap between the rich and the poor is getting ___ wide.', options: ['increasing', 'increasingly', 'more', 'most'], correctAnswer: 'increasingly', explanation: '"Increasingly" modifies the adjective "wide" to show a growing trend.', difficulty: 'Exam' },
+    { question: 'Of the three options, the first is the ___ efficient.', options: ['less', 'lesser', 'least', 'little'], correctAnswer: 'least', explanation: 'Comparing three items requires the superlative.', difficulty: 'Exam' },
+    { question: 'She is ___ musician than a painter.', options: ['more of a', 'more a', 'most of a', 'much a'], correctAnswer: 'more of a', explanation: 'We use "more of a" when comparing two roles or qualities of the same person.', difficulty: 'Exam' },
+    { question: 'It isn\'t ___ much a problem as a challenge.', options: ['so', 'as', 'very', 'too'], correctAnswer: 'so', explanation: 'The structure "not so much A as B" is used to correct a description.', difficulty: 'Exam' },
+    { question: 'He is ___ the smartest person I know.', options: ['very', 'by far', 'much', 'quite'], correctAnswer: 'by far', explanation: 'Emphasis for superlatives.', difficulty: 'Exam' },
+    { question: 'The diamond is inferior ___ the ruby in clarity.', options: ['than', 'from', 'to', 'against'], correctAnswer: 'to', explanation: '"Inferior" takes "to".', difficulty: 'Exam' }
+];
